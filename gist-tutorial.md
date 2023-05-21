@@ -40,21 +40,29 @@ Quantifiers specify how many times a certain element should occur. In our regex,
 The OR operator, represented by the | symbol, allows us to provide alternative matches for a specific position. However, in our email regex, we do not use the OR operator.
 
 ### Character Classes
+Character classes allow us to specify a set of characters that can match at a particular position. The \w represents a word character (letter, digit, or underscore). The dot . is used to match any character except a newline. The hyphen - has no special meaning within a character class and can be used as a literal.
 
 ### Flags
+Flags are used to modify the behavior of the regex matching. In our regex, we do not use any flags.
 
 ### Grouping and Capturing
+Grouping is denoted by parentheses ( ) and allows us to group multiple elements together. However, our email regex does not use grouping.
 
 ### Bracket Expressions
+Bracket expressions define a set of characters enclosed in square brackets [ ]. In our regex, we use bracket expressions to match specific characters, such as [\w.-] matching word characters, dots, and hyphens.
 
 ### Greedy and Lazy Match
+The quantifiers in regex are greedy by default, meaning they match as much as possible. In our regex, the + quantifier is greedy, ensuring that as many word characters, dots, and hyphens as possible are matched.
 
 ### Boundaries
+Boundaries define positions where certain conditions are met. In our email regex, we do not use any boundaries.
 
 ### Back-references
+Back-references allow us to refer to previously captured groups. In our email regex, we do not use back-references.
 
 ### Look-ahead and Look-behind
+Look-ahead and look-behind assertions are used to define conditions that must be satisfied without consuming the characters in the match. In our email regex, we do not use look-ahead or look-behind assertions.
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Ash Shilkin, a very junior developer in training. Link to GitHub: https://github.com/Web3Zero
