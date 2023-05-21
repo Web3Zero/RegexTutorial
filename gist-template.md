@@ -1,6 +1,8 @@
-# Title (replace with your title)
+# Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+Regular expressions, often referred to as regex, are powerful tools used for pattern matching and text manipulation. They consist of a sequence of characters that define a search pattern. Regex can be used in various programming languages and text editors to perform tasks such as validating input, searching and replacing text, and extracting specific information from text.
+
+In this tutorial, we will break down each component of a regular expression and describe what it does. 
 
 ## Summary
 
