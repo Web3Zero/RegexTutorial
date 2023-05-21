@@ -25,10 +25,25 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+Anchors are regex components used to match specific positions in a string. They do not match any actual characters, but rather represent a position relative to the text. The two most commonly used anchors are:
+
+^ (caret): Matches the start of a line or string.
+$ (dollar sign): Matches the end of a line or string.
+For example, the regex ^Hello will match the word "Hello" only if it appears at the beginning of a line, while world$ will match "world" only if it appears at the end of a line.
 
 ### Quantifiers
+Quantifiers specify the number of times a preceding element should occur in a regex pattern. They allow you to match patterns of varying lengths. Here are some common quantifiers:
+
+* (asterisk): Matches zero or more occurrences of the preceding element.
++ (plus sign): Matches one or more occurrences of the preceding element.
+? (question mark): Matches zero or one occurrence of the preceding element.
+{n}: Matches exactly n occurrences of the preceding element.
+{n,}: Matches at least n occurrences of the preceding element.
+{n,m}: Matches between n and m occurrences of the preceding element.
+For example, the regex a+b will match "ab", "aab", "aaab", and so on, while a{2,4} will match "aa", "aaa", and "aaaa".
 
 ### OR Operator
+The OR operator allows you to match one of several alternatives. In regex, the OR operator is represented by the pipe character |. It matches the pattern on its left or the pattern on its right. For example, the regex cat|dog will match either "cat" or "dog".
 
 ### Character Classes
 
